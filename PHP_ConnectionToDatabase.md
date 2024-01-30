@@ -1,4 +1,4 @@
-# classmate_help (PHP)
+# Connection PHP -> SQL
 
 ## Connexion à la database
 ```
