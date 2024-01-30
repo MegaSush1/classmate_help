@@ -25,3 +25,18 @@ $result = $conn->query ($demande); // enregistrer les informations obtenus pour 
 ?>
 ```
 ## Parcourir les données
+```
+<?php
+
+if($result->num_rows>0){ // Vérifier si la liste des résultat n'est pas vide
+
+  while($row=$result->fetch_assoc()){ // Parcourir les informations rangé par rangé
+
+    echo $row; // Affichage des informations dans le html
+// Argument : Si par exemple vous voulez récupérer l'information qui est dans la colonne appelé "description" dans la database, alors il s'écrira : $row["description"].
+// Cette variable n'est quand lecture seule (aucune modification direct sur celle-ci n'est possible)
+  }
+}
+
+?>
+```
