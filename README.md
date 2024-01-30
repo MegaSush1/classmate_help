@@ -4,4 +4,4 @@ Salut les gars, voici un petit repository GIT qui contient des référence pour 
 
 Je vais essayer de rajouter du contenue pour vous aidez lors du project de fin d'année.
 
-(Pardonnez moi pour les fautes d'orthographes)
+(Pardonnez moi pour les fautes d'orthographes, si elles existes)
